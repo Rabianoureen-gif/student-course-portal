@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(226, 225, 225, 0.4);
+}
+
+:root {
+    --color: rgb(2, 80, 2);
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+
+}
+
+.course-container {
+    height: 70%;
+    width: 100%;
+
+}
+
+.course-card {
+    background-color: white;
+    border: 2px solid rgb(223, 221, 221, 0.6);
+    padding: 10px 23px;
+    margin: 9px 10px;
+    border-radius: 10px;
+
+}
+
+h3 {
+
+    color: var(--color);
+}
+
+.course-desc {
+    color: rgb(133 0 133);
+}
+
+.course-dur {
+    color: grey;
+}
+
+.links {
+    text-decoration: none;
+    color: var(--color);
+    font-weight: bold;
+}
+
+.course-btn, .form-btn {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 6px;
+}
+.course-card:hover{
+    background-color: #fbbba242;
+    border: 2px solid lightsalmon;
+}
+
+.course-btn:hover, .form-btn:hover {
+    background-color: #0f66c4;
+    cursor: pointer;
+}
+
+.Registration-form {
+    width: 250px;          
+    margin: 0 auto;       
+    text-align: left;
+}
+
+h2 {
+    color: darkblue;
+    text-align: center;
+}
+.Registration-form label{
+    display: block;
+    text-align: left;
+}
+.Registration-form input {
+    display: block;        
+    width: 100%;           
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.Registration-form h2::after, h1::after {
+    text-align: center;
+    content: "";
+    display: block;
+    width: 208px;
+    height: 3px;
+    background-color: #d79a1a;
+    margin: 7px auto;
+}
+
+#name {
+    border: 2px solid blue;
+    padding: 3px;
+}
+
+#email {
+    border: 2px solid red;
+     padding: 3px;
+}
+
+#password {
+    border: 2px solid green;
+     padding: 3px;
+}
+input:focus{
+    outline:none;
+    border-color:#007bff !important;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.7);
+}

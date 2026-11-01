@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration Page</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <!-- 1. Welcome Banner (ID selector ke liye) -->
+    <header id="Welcome-banner">
+        <h1>Welcome to University Course Registration</h1>
+    </header>
+
+    <!-- 2. Course Section (Container & Cards) -->
+    <div class="course-container">
+
+        <!-- card 1 -->
+        <div class="course-card">
+            <h3>Web Development</h3>
+            <p class="course-desc">Learn HTML,CSS and Javascript to build modern websites</p>
+            <p class="course-dur">Duration:16 Weeks</p>
+            <a class="links" href="#" target="_blank">Learn More </a>
+            <button class="course-btn">Enroll Now</button>
+        </div>
+
+        <!-- card 2 -->
+        <div class="course-card">
+            <h3>Mobile Application Development</h3>
+            <p class="course-desc">Learn to develop Mobile applcation for Android Devices</p>
+            <p class="course-dur">Duration:12 Weeks</p>
+            <a class="links" href="#" target="_blank">Learn More </a>
+            <button class="course-btn">Enroll Now</button>
+        </div>
+
+        <!-- card 3 -->
+        <div class="course-card">
+            <h3>Database Management</h3>
+            <p class="course-desc">Understand database design,SQL queries,and database managemnt</p>
+            <p class="course-dur">Duration:10 Weeks</p>
+            <a class="links" href="#" target="_blank">Learn More </a>
+            <button class="course-btn">Enroll Now</button>
+        </div>
+    </div>
+    <div class="Registration-form">
+        <h2>Student Registration</h2>
+        <form>
+            <!-- Registration Form  -->
+            <label for="myname">Full Name:</label>
+            <input type="text" placeholder="Enter your Name" name="myname" id="name">
+            <label for="myemail">Email Address:</label>
+            <input type="email" placeholder="Enter your Email Address" name="myemail" id="email">
+            <label for="mypassword">Password:</label>
+            <input type="password" placeholder="Enter your Password" name="mypassword" id="password">
+           <button class="form-btn">submit Registration</button>
+        </form>
+    </div>
+</body>
+
+</html>
